@@ -1,0 +1,1 @@
+This SourceMod plugin monitors the net_chan_limit_msec setting on the server and ensures it is fixed at 50 ms. Every 10 seconds, it checks all connected players. If a player exceeds the allowed net_chan_limit_msec value, the plugin logs the action, notifies the server, and kicks the player with a warning message.
